@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: rgb(30, 5, 65);
+    padding: 30px;
+    height: 100%;
+
+}
+header{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;
+
+}
+header img{
+    width: 160px;
+    
+}
+header button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+} 
+.hero-section{
+    width: 97%;
+    height: 500px;
+    border-radius: 20px;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+    background: radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 1, 7, 0.4) 1.42%, rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/61e79073-50cf-4f7b-9a23-73290e6f7dca/d0322828-6d63-4f5f-92fb-30f492e7cca4/IN-en-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg)
+    
+
+}
+
+.text-section h1{
+    font-size: 50px;
+    color: white;
+
+}
+.text-section h3{
+    font-size: 28px;
+    color: white;
+}
+.text-section p{
+    font-size: 22px;
+    color: white;
+}
+.text-section input{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 10px;
+    color: rgb(248, 246, 246);
+    padding-left: 10px;
+
+    
+}
+.text-section button{
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.tv-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* flex-direction: column;  */
+    padding-top: 70px;
+
+    
+}
+
+.tv-section{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(45, 8, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+
+.tv-section .txt-section{
+    width: 50%;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 70px; */
+
+.tv-section img{
+    /* width: 500px;
+    height: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-right: 80px;
+    
+}
+.tv-section h1{
+    font-size: 60px;
+}
+.tv-section p{
+    font-size: 20px;
+}
+
+.faq{
+    width: 100%;
+    height: 160vh;
+    margin-left: 30px;
+
+
+}
+
+.faq h1{
+
+    color: white;
+    margin-top: 70px;
+}
+.faq-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq-section .box{
+    width: 60%;
+    height: 60px;
+    background-color: rgb(29, 29, 80);
+    margin-top: 20px;
+}
+
+.box span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(85, 79, 79);
+    padding-left: 20px;
+    padding-right: 15px;
+
+
+}
+
+.box span p{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.faq h1{
+
+    font-size: 40px;
+}
+
+.faq p{
+    color: whitesmoke;
+    font-size: 23px;
+    margin-top: 35px;
+}
+
+.faq input{
+
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    background-color:  rgb(28, 2, 43);
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.faq button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+
+}
+.footer{
+    font-size: 15px;
+    color: black;
+
+
+}
+.footer p{
+    font-size: 18px;
+    color: whitesmoke;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-right: 250px;
+}
+.footer li{
+    margin: 10px;
+
+}
+.footer a{
+    color: rgb(196, 175, 175);
+}
+.footer button{
+    width: 130px;
+    height: 40px;
+    color: rgb(121, 109, 109);
+
+}
+
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        padding-right: 70px;
+    }
+    .hero-section{
+        width: 100%;
+        height: auto;
+        padding: 60px; 
+    }
+    
+    .text-section{
+        padding: 40px;
+    }
+    .text-section h1{
+        font-size: 40px;
+    }
+    .text-section h3{
+        font-size: 25px;
+    }
+    .text-section p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .text-section input{
+        width: 250px;
+        font-size: 18px;
+    }
+    .text-section button{
+        width: 160px;
+        background-color: rgb(224, 4, 4);
+        font-size: 18px;
+    }
+    .tv-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin: -15px;
+
+    }
+    .txt-section h1{
+        font-size: 40px;
+    }
+
+    .faq{
+        width: 100%;
+        height: auto;
+    
+    }
+    .faq-section{
+        width: 800px;
+    }
+    .box input{
+        width: 700px;
+    }
+
+    
+}
